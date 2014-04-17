@@ -15,7 +15,7 @@ http://www.youtube.com/watch?v=Kdrp1Kt1dSw
 [...]
 ```
 
-The idea is to then feed these URLs into other purpose-built tools.
+The idea is to then feed these URLs into other purpose-built tools. Run it with `--help` for more details.
 
 The first run will take a while, as it builds a cache of all the JSON metadata available on the site. There are currently over 2000 videos, resulting in a cache of around 4MB. This data is saved to a local cache file that must be manually rebuilt (using the `-r` option) to pick up new changes.
 
